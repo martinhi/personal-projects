@@ -1,4 +1,4 @@
-# Data Project Portai¿folio
+# Data Project Portafolio
 
 <a target="_blank" href="https://www.linkedin.com/in/marti-hm/">
     <img src="https://img.shields.io/badge/LinkedIn-Profile-0077b5" alt="LinkedIn Profile" />
