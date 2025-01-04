@@ -1,39 +1,18 @@
-# Data Project Template
+# Data Project Portai¿folio
 
-<a target="_blank" href="https://datalumina.com/">
-    <img src="https://img.shields.io/badge/Datalumina-Project%20Template-2856f7" alt="Datalumina Project" />
+<a target="_blank" href="https://www.linkedin.com/in/marti-hm/">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-0077b5" alt="LinkedIn Profile" />
 </a>
 
-## Cookiecutter Data Science
-This project template is a simplified version of the [Cookiecutter Data Science](https://cookiecutter-data-science.drivendata.org) template, created to suit the needs of Datalumina and made available as a GitHub template.
+## Objective
+This repository aims to showcase various code samples that represent my past work, thought processes, folder organization, and coding skills. For security reasons, I have not uploaded the `.env` file. However, feel free to contact me at martin.hidalgom1@gmail.com if you'd like to test and run any of these codes (if necessary).
 
-## Adjusting .gitignore
-
-Ensure you adjust the `.gitignore` file according to your project needs. For example, since this is a template, the `/data/` folder is commented out and data will not be exlucded from source control:
-
-```plaintext
-# exclude data from source control by default
-# /data/
-```
-
-Typically, you want to exclude this folder if it contains either sensitive data that you do not want to add to version control or large files.
-
-## Duplicating the .env File
-To set up your environment variables, you need to duplicate the `.env.example` file and rename it to `.env`. You can do this manually or using the following terminal command:
-
-```bash
-cp .env.example .env # Linux, macOS, Git Bash, WSL
-copy .env.example .env # Windows Command Prompt
-```
-
-This command creates a copy of `.env.example` and names it `.env`, allowing you to configure your environment variables specific to your setup.
-
-
-## Project Organization
+## Repository Organization
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
-├── README.md          <- The top-level README for developers using this project
+├── README.md          <- The top-level README for programmers using this project
+├── config             <- Configuration files for the project, including global variables, API keys, and logging settings
 ├── data
 │   ├── external       <- Data from third party sources
 │   ├── interim        <- Intermediate data that has been transformed
